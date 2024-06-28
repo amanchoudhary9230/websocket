@@ -3,7 +3,7 @@ import { createServer } from 'http';
 import next from 'next';
 import { Server } from 'socket.io';
 
-const dev = true;
+const dev = false;
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
