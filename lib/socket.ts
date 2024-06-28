@@ -5,7 +5,7 @@ let socket: Socket;
 
 const initializeSocket = (): Socket => {
   if (!socket) {
-    socket = io('http://localhost:3000');
+    socket = io('https://websocket-red.vercel.app/');
   }
   return socket;
 };
